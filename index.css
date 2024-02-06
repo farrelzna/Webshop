@@ -1,0 +1,785 @@
+*{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar ul{
+  display: flex;
+  gap:3rem;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a{
+  text-decoration: none;
+  color:#282827;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.logo h1{
+  font-size: 30px;
+  padding-right: 20px;
+  color: #ff2400;
+}
+
+.bar{
+  display: flex;
+  justify-content: center;
+  background-color: #282827;
+}
+
+.bg{
+  background-color: white;
+  justify-content: space-between;
+  padding: 25px;
+  width: 1750px;
+  display: flex;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.pic{
+  display: flex;
+  align-items: center;
+  gap:2rem;
+}
+
+.frist{
+  background-color: #282827;
+  display: flex;
+  justify-content: center;
+  justify-content: space-between;
+  
+}
+
+.word{
+  width: 650px;
+  font-size: 35px;
+  padding: 120px;
+  color: white;
+}
+
+.btn{
+  height: 30px;
+  width: 200px;
+  color: white;
+  border-radius: 15px;
+  background-color:#282827;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.307);
+  cursor: pointer;
+  opacity: 1;
+}
+
+.btn2{
+  height: 30px;
+  width: 200px;
+  color: white;
+  border-radius: 15px;
+  background-color:#282827;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.307);
+  cursor: pointer;
+  opacity: 1;
+}
+
+.divv{
+  display: flex;
+  justify-content: center;
+}
+
+.btn:hover{
+  opacity: 0,6;
+  transition: 0,3s;
+}
+
+.btn2:hover{
+  opacity: 0,6;
+  transition: 0,3s;
+}
+
+.baruu img{
+  width: 80%;
+  height: auto;
+  padding: 20px;  
+  border-top-right-radius: 20%;
+  border-top-left-radius: 20%;
+  margin-right: 20px;
+  padding-bottom: 5%;
+}
+
+.baruu{
+  display: flex;
+  justify-content: center;
+}
+
+.gambar {
+  padding:40px;
+}
+
+.gambar img{
+  height: 350px;
+  width:500px;
+  border-top-left-radius:90px ;
+  border-bottom-right-radius:90px ;
+}
+
+.wordd h1{
+  display: flex;
+  justify-content: center;
+  
+}
+.wordd p{
+  display: flex;
+  justify-content: center;
+}
+
+.wordd{
+  font-weight: bold;
+  padding-top:30px;
+}
+
+.df{
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+  justify-content: center;
+  padding:30px
+}
+
+.wid{
+  font-weight: bold;
+}
+
+.second{
+  background-color: white;
+}
+
+.all{
+  background-color: white;;
+}
+
+.alll{
+  padding:20px;
+}
+
+.flex{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.picinbx{
+  border: 1px;
+  width: 250px;
+}
+
+.pici{
+  background-color:aliceblue;
+  display: flex;
+  justify-content: center;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 167px;
+}
+
+.diffco{
+  font-size: 15px;
+  background-color: gainsboro ;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.diffco p{
+  font-size: 14px;
+  padding: 10px;
+}
+
+.none{
+  display: flex;
+  justify-content: center;
+  background-color: #9BBEC8;
+}
+
+.between{
+  display: flex;
+  padding:15px;
+}
+
+.one{
+  padding:30px;
+}
+
+.one img{
+  width: 100%;
+  height: auto;
+  border-top-left-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.tree{
+  padding:30px;
+}
+
+.tree img{
+  width: 100%;
+  height: auto;
+  border-top-right-radius: 50px;
+  border-bottom-left-radius: 50px;
+}
+
+.two p{
+  width: 400px;
+  text-align: justify;
+}
+
+.two h2{
+  width: 250px;
+}
+
+.namee{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 20px;
+  padding-bottom:20px ;
+}
+.oke{
+  margin:20px
+}
+
+.oke p{
+  width: 400px;
+}
+
+.koko .koko2{
+  justify-content: space-evenly;
+}
+
+.oness{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.satuu{
+  display: flex;
+  gap:15rem;
+  padding-top: 25px;
+}
+
+.per{
+  display: flex;
+  gap:14rem   
+}
+
+@media screen and (max-width: 1024px){ 
+.navbar ul{
+  display: flex;
+  gap:3rem;
+}
+
+.navbar ul li {
+  list-style: none;
+}
+
+.navbar ul li a{
+text-decoration: none;
+}
+
+.logo h1{
+  height: 35px;
+  font-size: 25px;
+}
+
+.bar{
+  display: flex;
+  justify-content: center;
+}
+
+.bg{
+  justify-content: space-between;
+  padding: 25px;
+  width: 650px;
+  display: flex;
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.frist{
+  display:grid;
+  justify-content: center;
+}
+
+.word{
+  display: grid;
+  width: 650px;
+  font-size: 35px;
+  padding-bottom:40px;
+}
+
+.word h1{
+  text-align: center;
+}
+
+.btn{
+  height: 30px;
+  width: 200px;
+  border-radius: 15px;
+  cursor: pointer;
+  opacity: 1;
+}
+
+.divv{
+  padding: 30px;
+  display:flex;
+  justify-content: center;
+}
+
+.btn:hover{
+  opacity: 0,6;
+  transition: 0,3s;
+}
+
+.baruu img{
+  border-top-left-radius: 0px;
+  border-bottom-left-radius:120px ;
+  border-bottom-right-radius: 0px;
+  height: 480px;
+  width: 550px;
+}
+
+.baruu{
+  display: flex;
+  justify-content: center ;
+}
+
+.gambar {
+  padding:20px;
+  display: flex;
+  justify-content: center;
+  padding-bottom: 10%;
+}
+
+.gambar img{
+  height: 400px;
+  width:500px;
+  border-top-left-radius:90px ;
+  border-bottom-right-radius:90px ;
+}
+
+.wordd h1{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.wordd{
+  font-weight: bold;
+  padding-top:30px;
+}
+
+.df{
+  display: grid;
+  align-items: center;
+  gap: 3rem;
+  padding: 30px;
+}
+.pic{
+  display: flex;
+}
+
+.pic img{
+  width: 40%;
+  height: auto;
+}
+
+.koll{
+  display: flex;
+  justify-content: center;
+}
+
+.waduh{
+  justify-content: center;
+}
+
+.wid{
+  font-weight: bold;
+}
+
+.alll{
+  padding:20px;
+}
+
+.flex{
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.picinbx{
+  border: 1px;
+  width: 250px;
+}
+
+.pici{
+  display: flex;
+  justify-content: center;
+  border-top-right-radius: 15px;
+  border-top-left-radius: 15px;
+  height: 200px;
+}
+
+.pici img{
+  height: auto;
+  width: 100%;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+
+.diffco{
+  border-bottom-left-radius: 15px;
+  border-bottom-right-radius: 15px;
+}
+
+.none{
+  display: grid;
+  justify-content: center;
+}
+
+.between{
+  display: grid;
+  padding:15px;
+}
+
+.one{
+  display: flex;
+  justify-content: center;
+}
+
+.one img{
+  padding-top:10px;
+  height: auto;
+  width: 600px;
+}
+
+.tree{
+  display: flex;
+  justify-content: center;
+}
+
+.tree img{
+  height: auto;
+  width: 600px;
+  padding-bottom: 10px;
+}
+
+.centerhw{
+  display: flex;
+  justify-content: center;
+  font-size: large;
+}
+
+.two h2{
+  width: 400px;
+  align-items: center;
+}
+
+.two p{
+  width: 400px;
+}
+
+.namee{
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+}
+.oke{
+  margin:20px
+}
+
+.oke p{
+  width: 400px;
+}
+
+.koko .koko2{
+  justify-content: space-evenly;
+}
+
+.oness{
+  display: flex;
+  justify-content: center;
+  padding-bottom: 20px;
+}
+
+.satuu{
+  display: contents;
+  gap:15rem
+}
+
+.per{
+  display: flex;
+  gap:3rem   
+}
+
+}
+
+@media screen and (max-width:480px){
+  
+  .navbar ul{
+      display: flex;
+      gap:1rem;
+  }
+  
+  .navbar ul li {
+      list-style: none;
+  }
+  
+  .navbar ul li a{
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  .logo h1{
+      height: 35px;
+  }
+  
+  .bar{
+      display: flex;
+      justify-content: center;
+
+  }
+  
+  .bg{
+      justify-content: space-between;
+      padding: 25px;
+      width: 650px;
+      display: flex;
+      border-bottom-left-radius: 15px;
+      border-bottom-right-radius: 15px;
+  }
+
+  .frist{
+      display:grid;
+      justify-content: center;
+  }
+  
+  .word{
+    display: grid;
+    font-size: 35px;
+    margin-bottom:50px;
+    padding-bottom: 0%;
+  }
+
+  .word h1{
+      text-align: center;
+  }
+  
+  .btn{
+      width: 200px;
+      border-radius: 15px;
+      cursor: pointer;
+      opacity: 1;
+      padding-bottom: 0%;
+  }
+  
+  .btn:hover{
+      opacity: 0,6;
+      transition: 0,3s;
+  }
+
+  .btn2{
+    width: 200px;
+    border-radius: 15px;
+    cursor: pointer;
+    opacity: 1;
+    padding-bottom: 0%;
+  }
+
+  .btn2:hover{
+    opacity: 0,6;
+    transition: 0,3s;
+  }
+  
+  .baruu img{ 
+      height: 250px;
+      width: auto;
+      border-top-left-radius: 25%;
+      border-top-right-radius: 25%;
+      border-bottom-left-radius: 0%;
+      border-bottom-right-radius: 0%;
+      padding-bottom: 5%;
+      display: flex;
+      justify-content: center;
+      padding-left: 40px;
+  }
+  
+  .gambar {
+    display: none;
+    padding: 0%;
+  }
+  
+  .wordd h1{
+      display: flex;
+      justify-content: center;
+  }
+  .wordd p{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .wordd{
+      font-weight: bold;
+      padding-top:70px;
+      padding-bottom: 30px;
+  }
+  
+  .df{
+      display: grid;
+      align-items: center;
+      gap: 3rem;
+      padding: 0%;
+  }
+  .pic{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .pic img{
+    width: 40%;
+    height: auto;
+  }
+
+  .koll{
+      display: flex;
+      justify-content: center;
+  }
+  
+  .waduh{
+      justify-content: center;
+  }
+  
+  .wid{
+      font-weight: bold;
+  }
+  
+
+  .alll{
+      padding:20px;
+  }
+  
+
+  .flex{
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+  }
+  .picinbx{
+      border: 1px;
+      width: 250px;
+  }
+  
+  .pici{
+      display: flex;
+      justify-content: center;
+      border-top-right-radius: 15px;
+      border-top-left-radius: 15px;
+      height: 150px;
+  }
+  
+  .pici img{
+    height: auto;
+    width: 150%; 
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+  }
+
+  .diffco{
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+  }
+  
+  .none{
+      display: grid;
+      justify-content: center;
+  }
+  
+  .between{
+      display: flex;
+      justify-content: space-evenly;
+  }
+  
+  .one{
+      display: flex;
+      justify-content: center;
+    }
+    
+    .one img{
+      padding-top: 10px;
+      height: auto;
+      width: 300px;
+  }
+  
+  .tree{
+    display: flex;
+    justify-content: center;
+  }
+
+  .tree img{
+    padding-bottom: 10px;
+      height: auto;
+      width: 300px;
+  }
+
+  .two h2{
+    width: 270px;
+    height: auto;
+    font-size: 20px;
+  }
+
+  .two p{
+    width: 270px;
+    height: auto;
+    font-size: 20px;
+  }
+
+  .namee{
+      display: flex;
+      justify-content: space-evenly;
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  .oke{
+      margin:20px
+  }
+  
+  .oke p{
+      width: 300px;
+  }
+  
+  .koko .koko2{
+      justify-content: space-evenly;
+  }
+
+  
+  .oness{
+      display: flex;
+      justify-content: center;
+      padding-bottom: 20px;
+  }
+
+  .namee{
+      display: grid;
+  }
+
+  .satuu{
+      display: grid;
+      justify-content: space-evenly;
+      gap:1rem
+  }
+
+  .per{
+      display: flex;
+      gap:5rem;   
+  }
+}
